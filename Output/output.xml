@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210824 14:06:39.517" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1 (Python 3.9.6 on win32)" generated="20210824 17:29:33.776" rpa="false" schemaversion="2">
 <suite id="s1" name="Sample" source="C:\Users\RAVI RAI\PycharmProjects\pythonProject\testSelenium\sample.robot">
 <test id="s1-t1" name="Sign Up for PIASample App and validate">
 <kw name="Open Application" library="AppiumLibrary">
@@ -16,180 +16,476 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 | *Option*            | *Man.* | *Description*     |
 | remote_url          | Yes    | Appium server url |
 | alias               | no     | alias             |</doc>
-<msg timestamp="20210824 14:06:39.845" level="TRACE">Arguments: [ 'http://localhost:4723/wd/hub' | platformName='Android' | deviceName='BS7533M4KN0221008929' | app='C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk' | appPackage='eu.nets.pia.sample' | appActivity='eu.nets.pia.sample.ui.activity.main.MainActivity' | automationName='uiautomator2' ]</msg>
-<msg timestamp="20210824 14:06:41.877" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "BS7533M4KN0221008929", "appium:app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appium:appPackage": "eu.nets.pia.sample", "appium:appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "appium:automationName": "uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "BS7533M4KN0221008929", "app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appPackage": "eu.nets.pia.sample", "appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "automationName": "uiautomator2"}}</msg>
-<msg timestamp="20210824 14:06:41.892" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:4723</msg>
-<msg timestamp="20210824 14:06:54.838" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1217</msg>
-<msg timestamp="20210824 14:06:54.838" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:54.838" level="DEBUG">Opened application with session id 6984cdc1-5931-47a0-984d-779553c9e7ae</msg>
-<msg timestamp="20210824 14:06:54.838" level="TRACE">Return: 1</msg>
-<status status="PASS" starttime="20210824 14:06:39.845" endtime="20210824 14:06:54.838"/>
+<msg timestamp="20210824 17:29:34.089" level="TRACE">Arguments: [ 'http://localhost:4723/wd/hub' | platformName='Android' | deviceName='BS7533M4KN0221008929' | app='C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk' | appPackage='eu.nets.pia.sample' | appActivity='eu.nets.pia.sample.ui.activity.main.MainActivity' | automationName='uiautomator2' ]</msg>
+<msg timestamp="20210824 17:29:36.120" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "BS7533M4KN0221008929", "appium:app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appium:appPackage": "eu.nets.pia.sample", "appium:appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "appium:automationName": "uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "BS7533M4KN0221008929", "app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appPackage": "eu.nets.pia.sample", "appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "automationName": "uiautomator2"}}</msg>
+<msg timestamp="20210824 17:29:36.136" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:4723</msg>
+<msg timestamp="20210824 17:29:49.575" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1217</msg>
+<msg timestamp="20210824 17:29:49.575" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:49.590" level="DEBUG">Opened application with session id 12ffce5d-e5c9-4bec-a68a-f8371985f048</msg>
+<msg timestamp="20210824 17:29:49.590" level="TRACE">Return: 1</msg>
+<status status="PASS" starttime="20210824 17:29:34.089" endtime="20210824 17:29:49.590"/>
 </kw>
 <kw name="Comment" library="BuiltIn">
 <arg>Application launched</arg>
 <doc>Displays the given messages in the log file as keyword arguments.</doc>
-<msg timestamp="20210824 14:06:54.853" level="TRACE">Arguments: [ 'Application launched' ]</msg>
-<msg timestamp="20210824 14:06:54.853" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:54.853" endtime="20210824 14:06:54.853"/>
+<msg timestamp="20210824 17:29:49.590" level="TRACE">Arguments: [ 'Application launched' ]</msg>
+<msg timestamp="20210824 17:29:49.590" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:49.590" endtime="20210824 17:29:49.590"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>id=customer_id_et</arg>
 <arg>${CUST_ID}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20210824 14:06:54.853" level="TRACE">Arguments: [ 'id=customer_id_et' | '101' ]</msg>
-<msg timestamp="20210824 14:06:54.853" level="INFO">Typing text '101' into text field 'id=customer_id_et'</msg>
-<msg timestamp="20210824 14:06:54.853" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "customer_id_et"}</msg>
-<msg timestamp="20210824 14:06:55.556" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:55.556" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:55.556" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/21eabd81-af16-41ea-ba28-be19c0e2fe73/value {"text": "101", "value": ["1", "0", "1"], "id": "21eabd81-af16-41ea-ba28-be19c0e2fe73"}</msg>
-<msg timestamp="20210824 14:06:55.619" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/21eabd81-af16-41ea-ba28-be19c0e2fe73/value HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:55.635" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:55.635" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:54.853" endtime="20210824 14:06:55.635"/>
+<msg timestamp="20210824 17:29:49.590" level="TRACE">Arguments: [ 'id=customer_id_et' | '101' ]</msg>
+<msg timestamp="20210824 17:29:49.590" level="INFO">Typing text '101' into text field 'id=customer_id_et'</msg>
+<msg timestamp="20210824 17:29:49.590" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "customer_id_et"}</msg>
+<msg timestamp="20210824 17:29:50.075" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:50.075" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:50.075" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/6067def0-0b8e-4de1-ba3a-47ebd809feb5/value {"text": "101", "value": ["1", "0", "1"], "id": "6067def0-0b8e-4de1-ba3a-47ebd809feb5"}</msg>
+<msg timestamp="20210824 17:29:50.137" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/6067def0-0b8e-4de1-ba3a-47ebd809feb5/value HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:50.137" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:50.137" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:49.590" endtime="20210824 17:29:50.137"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=sign_up_btn</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210824 14:06:55.635" level="TRACE">Arguments: [ 'id=sign_up_btn' ]</msg>
-<msg timestamp="20210824 14:06:55.635" level="INFO">Clicking element 'id=sign_up_btn'.</msg>
-<msg timestamp="20210824 14:06:55.635" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "sign_up_btn"}</msg>
-<msg timestamp="20210824 14:06:56.244" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:56.244" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:56.244" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/cc8121fa-ffe0-45cf-8ceb-82fa254719ee/click {"id": "cc8121fa-ffe0-45cf-8ceb-82fa254719ee"}</msg>
-<msg timestamp="20210824 14:06:56.322" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/cc8121fa-ffe0-45cf-8ceb-82fa254719ee/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:56.322" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:56.322" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:55.635" endtime="20210824 14:06:56.322"/>
+<msg timestamp="20210824 17:29:50.137" level="TRACE">Arguments: [ 'id=sign_up_btn' ]</msg>
+<msg timestamp="20210824 17:29:50.153" level="INFO">Clicking element 'id=sign_up_btn'.</msg>
+<msg timestamp="20210824 17:29:50.153" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "sign_up_btn"}</msg>
+<msg timestamp="20210824 17:29:50.762" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:50.762" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:50.762" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/78b09202-8808-40f0-9099-57f79582472c/click {"id": "78b09202-8808-40f0-9099-57f79582472c"}</msg>
+<msg timestamp="20210824 17:29:50.825" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/78b09202-8808-40f0-9099-57f79582472c/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:50.825" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:50.825" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:50.137" endtime="20210824 17:29:50.825"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>id=payment_btn</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20210824 14:06:56.322" level="TRACE">Arguments: [ 'id=payment_btn' ]</msg>
-<msg timestamp="20210824 14:06:56.338" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "payment_btn"}</msg>
-<msg timestamp="20210824 14:06:56.619" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 12</msg>
-<msg timestamp="20210824 14:06:56.619" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:56.822" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "payment_btn"}</msg>
-<msg timestamp="20210824 14:06:57.213" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:57.213" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:57.213" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/10167454-5a15-456a-b75a-72aa00839bd6/displayed {"id": "10167454-5a15-456a-b75a-72aa00839bd6"}</msg>
-<msg timestamp="20210824 14:06:57.244" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/10167454-5a15-456a-b75a-72aa00839bd6/displayed HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:57.244" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:57.244" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:56.322" endtime="20210824 14:06:57.244"/>
+<msg timestamp="20210824 17:29:50.825" level="TRACE">Arguments: [ 'id=payment_btn' ]</msg>
+<msg timestamp="20210824 17:29:50.825" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "payment_btn"}</msg>
+<msg timestamp="20210824 17:29:51.684" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:51.685" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:51.685" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/123bb77e-adf1-4573-85ee-5dc9cea123ee/displayed {"id": "123bb77e-adf1-4573-85ee-5dc9cea123ee"}</msg>
+<msg timestamp="20210824 17:29:51.712" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/123bb77e-adf1-4573-85ee-5dc9cea123ee/displayed HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:51.713" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:51.713" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:50.825" endtime="20210824 17:29:51.713"/>
 </kw>
 <kw name="Comment" library="BuiltIn">
 <arg>Login Successful</arg>
 <doc>Displays the given messages in the log file as keyword arguments.</doc>
-<msg timestamp="20210824 14:06:57.244" level="TRACE">Arguments: [ 'Login Successful' ]</msg>
-<msg timestamp="20210824 14:06:57.244" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:57.244" endtime="20210824 14:06:57.244"/>
+<msg timestamp="20210824 17:29:51.714" level="TRACE">Arguments: [ 'Login Successful' ]</msg>
+<msg timestamp="20210824 17:29:51.714" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:51.714" endtime="20210824 17:29:51.714"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=payment_btn</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210824 14:06:57.244" level="TRACE">Arguments: [ 'id=payment_btn' ]</msg>
-<msg timestamp="20210824 14:06:57.244" level="INFO">Clicking element 'id=payment_btn'.</msg>
-<msg timestamp="20210824 14:06:57.244" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "payment_btn"}</msg>
-<msg timestamp="20210824 14:06:57.291" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:57.291" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:57.291" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/c5bb61a8-2a8c-4634-a8d3-0f4fc82e408a/click {"id": "c5bb61a8-2a8c-4634-a8d3-0f4fc82e408a"}</msg>
-<msg timestamp="20210824 14:06:57.947" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/c5bb61a8-2a8c-4634-a8d3-0f4fc82e408a/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:57.947" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:57.947" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:57.244" endtime="20210824 14:06:57.963"/>
+<msg timestamp="20210824 17:29:51.715" level="TRACE">Arguments: [ 'id=payment_btn' ]</msg>
+<msg timestamp="20210824 17:29:51.717" level="INFO">Clicking element 'id=payment_btn'.</msg>
+<msg timestamp="20210824 17:29:51.717" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "payment_btn"}</msg>
+<msg timestamp="20210824 17:29:51.759" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:51.760" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:51.760" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/bb3cb000-5a14-4ad7-af5f-5b9583b96e8e/click {"id": "bb3cb000-5a14-4ad7-af5f-5b9583b96e8e"}</msg>
+<msg timestamp="20210824 17:29:52.399" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/bb3cb000-5a14-4ad7-af5f-5b9583b96e8e/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:52.399" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.399" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:51.715" endtime="20210824 17:29:52.399"/>
 </kw>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>xpath=//*[contains(@text,'OK')]</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20210824 14:06:57.963" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'OK')]" ]</msg>
-<msg timestamp="20210824 14:06:57.963" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "xpath", "value": "//*[contains(@text,'OK')]"}</msg>
-<msg timestamp="20210824 14:06:58.104" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:58.104" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.104" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/64c6361b-6b5f-495b-845a-52e0958cee4a/displayed {"id": "64c6361b-6b5f-495b-845a-52e0958cee4a"}</msg>
-<msg timestamp="20210824 14:06:58.150" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/64c6361b-6b5f-495b-845a-52e0958cee4a/displayed HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:58.150" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.150" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:57.963" endtime="20210824 14:06:58.150"/>
+<msg timestamp="20210824 17:29:52.399" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'OK')]" ]</msg>
+<msg timestamp="20210824 17:29:52.399" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "xpath", "value": "//*[contains(@text,'OK')]"}</msg>
+<msg timestamp="20210824 17:29:52.556" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:52.556" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.556" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/3d675b8a-5240-467a-9830-abb94569d40b/displayed {"id": "3d675b8a-5240-467a-9830-abb94569d40b"}</msg>
+<msg timestamp="20210824 17:29:52.603" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/3d675b8a-5240-467a-9830-abb94569d40b/displayed HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:52.603" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.603" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:52.399" endtime="20210824 17:29:52.603"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>xpath=//*[contains(@text,'OK')]</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210824 14:06:58.150" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'OK')]" ]</msg>
-<msg timestamp="20210824 14:06:58.150" level="INFO">Clicking element 'xpath=//*[contains(@text,'OK')]'.</msg>
-<msg timestamp="20210824 14:06:58.150" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "xpath", "value": "//*[contains(@text,'OK')]"}</msg>
-<msg timestamp="20210824 14:06:58.244" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:58.244" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.244" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/0799f56f-48fc-46ef-ae49-28ea2f738cc5/click {"id": "0799f56f-48fc-46ef-ae49-28ea2f738cc5"}</msg>
-<msg timestamp="20210824 14:06:58.322" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/0799f56f-48fc-46ef-ae49-28ea2f738cc5/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:58.322" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.322" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:58.150" endtime="20210824 14:06:58.322"/>
+<msg timestamp="20210824 17:29:52.603" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'OK')]" ]</msg>
+<msg timestamp="20210824 17:29:52.603" level="INFO">Clicking element 'xpath=//*[contains(@text,'OK')]'.</msg>
+<msg timestamp="20210824 17:29:52.603" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "xpath", "value": "//*[contains(@text,'OK')]"}</msg>
+<msg timestamp="20210824 17:29:52.696" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:52.696" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.696" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/0384a731-d315-4485-9199-edaabb45733e/click {"id": "0384a731-d315-4485-9199-edaabb45733e"}</msg>
+<msg timestamp="20210824 17:29:52.774" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/0384a731-d315-4485-9199-edaabb45733e/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:52.774" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.774" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:52.603" endtime="20210824 17:29:52.774"/>
 </kw>
 <kw name="Comment" library="BuiltIn">
 <arg>click on ok button to dismiss alert</arg>
 <doc>Displays the given messages in the log file as keyword arguments.</doc>
-<msg timestamp="20210824 14:06:58.322" level="TRACE">Arguments: [ 'click on ok button to dismiss alert' ]</msg>
-<msg timestamp="20210824 14:06:58.322" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:58.322" endtime="20210824 14:06:58.322"/>
+<msg timestamp="20210824 17:29:52.774" level="TRACE">Arguments: [ 'click on ok button to dismiss alert' ]</msg>
+<msg timestamp="20210824 17:29:52.774" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:52.774" endtime="20210824 17:29:52.774"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>id=settings_item</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20210824 14:06:58.338" level="TRACE">Arguments: [ 'id=settings_item' ]</msg>
-<msg timestamp="20210824 14:06:58.354" level="INFO">Clicking element 'id=settings_item'.</msg>
-<msg timestamp="20210824 14:06:58.354" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "settings_item"}</msg>
-<msg timestamp="20210824 14:06:58.885" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:58.885" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.885" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/4ad650a1-d98e-47be-8722-bf758a74bdd5/click {"id": "4ad650a1-d98e-47be-8722-bf758a74bdd5"}</msg>
-<msg timestamp="20210824 14:06:58.947" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/4ad650a1-d98e-47be-8722-bf758a74bdd5/click HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:06:58.947" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:58.947" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:58.338" endtime="20210824 14:06:58.947"/>
+<msg timestamp="20210824 17:29:52.774" level="TRACE">Arguments: [ 'id=settings_item' ]</msg>
+<msg timestamp="20210824 17:29:52.774" level="INFO">Clicking element 'id=settings_item'.</msg>
+<msg timestamp="20210824 17:29:52.774" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "settings_item"}</msg>
+<msg timestamp="20210824 17:29:52.868" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:52.868" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:52.868" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/3e1e8069-98f6-4412-a9ee-9dbde9f4a6b1/click {"id": "3e1e8069-98f6-4412-a9ee-9dbde9f4a6b1"}</msg>
+<msg timestamp="20210824 17:29:53.415" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/3e1e8069-98f6-4412-a9ee-9dbde9f4a6b1/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:53.415" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:53.415" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:52.774" endtime="20210824 17:29:53.415"/>
 </kw>
 <kw name="Element Should Contain Text" library="AppiumLibrary">
 <arg>id=customer_id_label</arg>
 <arg>${CUST_ID}</arg>
 <doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
-<msg timestamp="20210824 14:06:58.947" level="TRACE">Arguments: [ 'id=customer_id_label' | '101' ]</msg>
-<msg timestamp="20210824 14:06:58.947" level="INFO">Verifying element 'id=customer_id_label' contains text '101'.</msg>
-<msg timestamp="20210824 14:06:58.947" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements {"using": "id", "value": "customer_id_label"}</msg>
-<msg timestamp="20210824 14:06:59.885" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/elements HTTP/1.1" 200 139</msg>
-<msg timestamp="20210824 14:06:59.885" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:59.885" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/1aac2c58-f894-4949-8082-a5caed0df34d/text {"id": "1aac2c58-f894-4949-8082-a5caed0df34d"}</msg>
-<msg timestamp="20210824 14:06:59.901" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae/element/1aac2c58-f894-4949-8082-a5caed0df34d/text HTTP/1.1" 200 69</msg>
-<msg timestamp="20210824 14:06:59.901" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:06:59.901" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:58.947" endtime="20210824 14:06:59.901"/>
+<msg timestamp="20210824 17:29:53.415" level="TRACE">Arguments: [ 'id=customer_id_label' | '101' ]</msg>
+<msg timestamp="20210824 17:29:53.415" level="INFO">Verifying element 'id=customer_id_label' contains text '101'.</msg>
+<msg timestamp="20210824 17:29:53.415" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements {"using": "id", "value": "customer_id_label"}</msg>
+<msg timestamp="20210824 17:29:54.337" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:29:54.337" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:54.337" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/9c911c54-363e-4871-ac1e-0abdb1fd66dc/text {"id": "9c911c54-363e-4871-ac1e-0abdb1fd66dc"}</msg>
+<msg timestamp="20210824 17:29:54.368" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048/element/9c911c54-363e-4871-ac1e-0abdb1fd66dc/text HTTP/1.1" 200 69</msg>
+<msg timestamp="20210824 17:29:54.368" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:54.368" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:53.415" endtime="20210824 17:29:54.368"/>
 </kw>
 <kw name="Comment" library="BuiltIn">
 <arg>${CUST_ID} verified on settings screen</arg>
 <doc>Displays the given messages in the log file as keyword arguments.</doc>
-<msg timestamp="20210824 14:06:59.901" level="TRACE">Arguments: [ '${CUST_ID} verified on settings screen' ]</msg>
-<msg timestamp="20210824 14:06:59.901" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:59.901" endtime="20210824 14:06:59.901"/>
+<msg timestamp="20210824 17:29:54.368" level="TRACE">Arguments: [ '${CUST_ID} verified on settings screen' ]</msg>
+<msg timestamp="20210824 17:29:54.368" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:54.368" endtime="20210824 17:29:54.368"/>
 </kw>
 <kw name="Close Application" library="AppiumLibrary">
 <doc>Closes the current application and also close webdriver session.</doc>
-<msg timestamp="20210824 14:06:59.901" level="TRACE">Arguments: [  ]</msg>
-<msg timestamp="20210824 14:06:59.901" level="DEBUG">Closing application with session id 6984cdc1-5931-47a0-984d-779553c9e7ae</msg>
-<msg timestamp="20210824 14:06:59.901" level="DEBUG">DELETE http://127.0.0.1:4723/wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae {}</msg>
-<msg timestamp="20210824 14:07:00.276" level="DEBUG">http://127.0.0.1:4723 "DELETE /wd/hub/session/6984cdc1-5931-47a0-984d-779553c9e7ae HTTP/1.1" 200 14</msg>
-<msg timestamp="20210824 14:07:00.276" level="DEBUG">Finished Request</msg>
-<msg timestamp="20210824 14:07:00.276" level="TRACE">Return: None</msg>
-<status status="PASS" starttime="20210824 14:06:59.901" endtime="20210824 14:07:00.276"/>
+<msg timestamp="20210824 17:29:54.368" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210824 17:29:54.368" level="DEBUG">Closing application with session id 12ffce5d-e5c9-4bec-a68a-f8371985f048</msg>
+<msg timestamp="20210824 17:29:54.368" level="DEBUG">DELETE http://127.0.0.1:4723/wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048 {}</msg>
+<msg timestamp="20210824 17:29:54.775" level="DEBUG">http://127.0.0.1:4723 "DELETE /wd/hub/session/12ffce5d-e5c9-4bec-a68a-f8371985f048 HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:29:54.775" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:29:54.775" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:29:54.368" endtime="20210824 17:29:54.775"/>
 </kw>
-<status status="PASS" starttime="20210824 14:06:39.845" endtime="20210824 14:07:00.276"/>
+<status status="PASS" starttime="20210824 17:29:34.089" endtime="20210824 17:29:54.775"/>
 </test>
-<status status="PASS" starttime="20210824 14:06:39.517" endtime="20210824 14:07:00.276"/>
+<test id="s1-t2" name="As a user, I'm able to change the Customer ID in the Settings view from PiA Android app">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://localhost:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=BS7533M4KN0221008929</arg>
+<arg>app=${PATH}/demoapp/pia-sdk-android-release-sample-2.4.0.apk</arg>
+<arg>appPackage=eu.nets.pia.sample</arg>
+<arg>appActivity=eu.nets.pia.sample.ui.activity.main.MainActivity</arg>
+<arg>automationName=uiautomator2</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<msg timestamp="20210824 17:29:54.775" level="TRACE">Arguments: [ 'http://localhost:4723/wd/hub' | platformName='Android' | deviceName='BS7533M4KN0221008929' | app='C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk' | appPackage='eu.nets.pia.sample' | appActivity='eu.nets.pia.sample.ui.activity.main.MainActivity' | automationName='uiautomator2' ]</msg>
+<msg timestamp="20210824 17:29:56.791" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "BS7533M4KN0221008929", "appium:app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appium:appPackage": "eu.nets.pia.sample", "appium:appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "appium:automationName": "uiautomator2"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "BS7533M4KN0221008929", "app": "C:\\Users\\RAVI RAI\\PycharmProjects\\pythonProject\\testSelenium/../demoapp/pia-sdk-android-release-sample-2.4.0.apk", "appPackage": "eu.nets.pia.sample", "appActivity": "eu.nets.pia.sample.ui.activity.main.MainActivity", "automationName": "uiautomator2"}}</msg>
+<msg timestamp="20210824 17:29:56.791" level="DEBUG">Starting new HTTP connection (1): 127.0.0.1:4723</msg>
+<msg timestamp="20210824 17:30:10.714" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1217</msg>
+<msg timestamp="20210824 17:30:10.714" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:10.729" level="DEBUG">Opened application with session id 6a5ca1fb-1800-4d37-a680-6ef5571d05e3</msg>
+<msg timestamp="20210824 17:30:10.729" level="TRACE">Return: 2</msg>
+<status status="PASS" starttime="20210824 17:29:54.775" endtime="20210824 17:30:10.729"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>Application launched</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:10.729" level="TRACE">Arguments: [ 'Application launched' ]</msg>
+<msg timestamp="20210824 17:30:10.729" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:10.729" endtime="20210824 17:30:10.729"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>id=customer_id_et</arg>
+<arg>${CUST_ID}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:10.729" level="TRACE">Arguments: [ 'id=customer_id_et' | '101' ]</msg>
+<msg timestamp="20210824 17:30:10.729" level="INFO">Typing text '101' into text field 'id=customer_id_et'</msg>
+<msg timestamp="20210824 17:30:10.729" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "customer_id_et"}</msg>
+<msg timestamp="20210824 17:30:11.198" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:11.198" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:11.198" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/c8dbe57d-3375-4fe4-bbea-5d7241c00611/value {"text": "101", "value": ["1", "0", "1"], "id": "c8dbe57d-3375-4fe4-bbea-5d7241c00611"}</msg>
+<msg timestamp="20210824 17:30:11.761" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/c8dbe57d-3375-4fe4-bbea-5d7241c00611/value HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:11.761" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:11.761" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:10.729" endtime="20210824 17:30:11.761"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=sign_up_btn</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:11.761" level="TRACE">Arguments: [ 'id=sign_up_btn' ]</msg>
+<msg timestamp="20210824 17:30:11.761" level="INFO">Clicking element 'id=sign_up_btn'.</msg>
+<msg timestamp="20210824 17:30:11.761" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "sign_up_btn"}</msg>
+<msg timestamp="20210824 17:30:12.370" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:12.370" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:12.370" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/ec073531-1558-4dde-8cdc-062cbe0472a5/click {"id": "ec073531-1558-4dde-8cdc-062cbe0472a5"}</msg>
+<msg timestamp="20210824 17:30:12.448" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/ec073531-1558-4dde-8cdc-062cbe0472a5/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:12.448" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:12.448" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:11.761" endtime="20210824 17:30:12.448"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=payment_btn</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<msg timestamp="20210824 17:30:12.448" level="TRACE">Arguments: [ 'id=payment_btn' ]</msg>
+<msg timestamp="20210824 17:30:12.448" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "payment_btn"}</msg>
+<msg timestamp="20210824 17:30:12.776" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 12</msg>
+<msg timestamp="20210824 17:30:12.776" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:12.979" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "payment_btn"}</msg>
+<msg timestamp="20210824 17:30:13.308" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:13.308" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:13.308" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/22023d4c-2432-4a4c-93ae-8c4f1244432f/displayed {"id": "22023d4c-2432-4a4c-93ae-8c4f1244432f"}</msg>
+<msg timestamp="20210824 17:30:13.323" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/22023d4c-2432-4a4c-93ae-8c4f1244432f/displayed HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:13.323" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:13.323" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:12.448" endtime="20210824 17:30:13.323"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>Login Successful</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:13.323" level="TRACE">Arguments: [ 'Login Successful' ]</msg>
+<msg timestamp="20210824 17:30:13.323" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:13.323" endtime="20210824 17:30:13.323"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=settings_item</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:13.323" level="TRACE">Arguments: [ 'id=settings_item' ]</msg>
+<msg timestamp="20210824 17:30:13.323" level="INFO">Clicking element 'id=settings_item'.</msg>
+<msg timestamp="20210824 17:30:13.323" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "settings_item"}</msg>
+<msg timestamp="20210824 17:30:13.370" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:13.370" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:13.370" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/6405d163-9d7f-4582-9ed7-647255a4c1a2/click {"id": "6405d163-9d7f-4582-9ed7-647255a4c1a2"}</msg>
+<msg timestamp="20210824 17:30:13.433" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/6405d163-9d7f-4582-9ed7-647255a4c1a2/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:13.433" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:13.433" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:13.323" endtime="20210824 17:30:13.433"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=customer_id_label</arg>
+<arg>${CUST_ID}</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20210824 17:30:13.433" level="TRACE">Arguments: [ 'id=customer_id_label' | '101' ]</msg>
+<msg timestamp="20210824 17:30:13.433" level="INFO">Verifying element 'id=customer_id_label' contains text '101'.</msg>
+<msg timestamp="20210824 17:30:13.433" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "customer_id_label"}</msg>
+<msg timestamp="20210824 17:30:14.386" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:14.386" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:14.386" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/a98dc42e-301a-4844-b9dd-d772ce205b77/text {"id": "a98dc42e-301a-4844-b9dd-d772ce205b77"}</msg>
+<msg timestamp="20210824 17:30:14.401" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/a98dc42e-301a-4844-b9dd-d772ce205b77/text HTTP/1.1" 200 69</msg>
+<msg timestamp="20210824 17:30:14.401" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:14.401" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:13.433" endtime="20210824 17:30:14.401"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=change_customer_id</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:14.401" level="TRACE">Arguments: [ 'id=change_customer_id' ]</msg>
+<msg timestamp="20210824 17:30:14.401" level="INFO">Clicking element 'id=change_customer_id'.</msg>
+<msg timestamp="20210824 17:30:14.401" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "change_customer_id"}</msg>
+<msg timestamp="20210824 17:30:14.479" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:14.479" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:14.479" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/775bb7bc-1e03-443b-b100-67fc51a7ffe2/click {"id": "775bb7bc-1e03-443b-b100-67fc51a7ffe2"}</msg>
+<msg timestamp="20210824 17:30:14.542" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/775bb7bc-1e03-443b-b100-67fc51a7ffe2/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:14.542" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:14.542" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:14.401" endtime="20210824 17:30:14.542"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=alertTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<msg timestamp="20210824 17:30:14.542" level="TRACE">Arguments: [ 'id=alertTitle' ]</msg>
+<msg timestamp="20210824 17:30:14.542" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "alertTitle"}</msg>
+<msg timestamp="20210824 17:30:14.667" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 12</msg>
+<msg timestamp="20210824 17:30:14.667" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:14.870" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "alertTitle"}</msg>
+<msg timestamp="20210824 17:30:15.214" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:15.214" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.214" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/35f2e7d4-596b-4a47-a6bf-e1738338644e/displayed {"id": "35f2e7d4-596b-4a47-a6bf-e1738338644e"}</msg>
+<msg timestamp="20210824 17:30:15.276" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/35f2e7d4-596b-4a47-a6bf-e1738338644e/displayed HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:15.276" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.276" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:14.542" endtime="20210824 17:30:15.276"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=alertTitle</arg>
+<arg>${EDIT_CUST_ALERT_TEXT}</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20210824 17:30:15.276" level="TRACE">Arguments: [ 'id=alertTitle' | 'New Customer ID' ]</msg>
+<msg timestamp="20210824 17:30:15.276" level="INFO">Verifying element 'id=alertTitle' contains text 'New Customer ID'.</msg>
+<msg timestamp="20210824 17:30:15.276" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "alertTitle"}</msg>
+<msg timestamp="20210824 17:30:15.308" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:15.308" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.308" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/82f8dfcc-cf7d-478f-822c-d82ef4fcaf09/text {"id": "82f8dfcc-cf7d-478f-822c-d82ef4fcaf09"}</msg>
+<msg timestamp="20210824 17:30:15.355" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/82f8dfcc-cf7d-478f-822c-d82ef4fcaf09/text HTTP/1.1" 200 78</msg>
+<msg timestamp="20210824 17:30:15.355" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.355" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:15.276" endtime="20210824 17:30:15.355"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>click on cancel to abort change of customer ID</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:15.355" level="TRACE">Arguments: [ 'click on cancel to abort change of customer ID' ]</msg>
+<msg timestamp="20210824 17:30:15.355" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:15.355" endtime="20210824 17:30:15.355"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>xpath=//*[contains(@text,'CANCEL')]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:15.355" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'CANCEL')]" ]</msg>
+<msg timestamp="20210824 17:30:15.355" level="INFO">Clicking element 'xpath=//*[contains(@text,'CANCEL')]'.</msg>
+<msg timestamp="20210824 17:30:15.355" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "xpath", "value": "//*[contains(@text,'CANCEL')]"}</msg>
+<msg timestamp="20210824 17:30:15.511" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:15.511" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.511" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/f08aa284-a3f4-4fa7-b1f4-caa5013f8e9e/click {"id": "f08aa284-a3f4-4fa7-b1f4-caa5013f8e9e"}</msg>
+<msg timestamp="20210824 17:30:15.574" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/f08aa284-a3f4-4fa7-b1f4-caa5013f8e9e/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:15.574" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.574" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:15.355" endtime="20210824 17:30:15.574"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>asserting customer ID is still the same</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:15.574" level="TRACE">Arguments: [ 'asserting customer ID is still the same' ]</msg>
+<msg timestamp="20210824 17:30:15.574" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:15.574" endtime="20210824 17:30:15.574"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=customer_id_label</arg>
+<arg>${CUST_ID}</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20210824 17:30:15.574" level="TRACE">Arguments: [ 'id=customer_id_label' | '101' ]</msg>
+<msg timestamp="20210824 17:30:15.589" level="INFO">Verifying element 'id=customer_id_label' contains text '101'.</msg>
+<msg timestamp="20210824 17:30:15.589" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "customer_id_label"}</msg>
+<msg timestamp="20210824 17:30:15.902" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:15.902" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:15.902" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/90cfa01e-69c1-4e1c-a5a3-40a8988a399c/text {"id": "90cfa01e-69c1-4e1c-a5a3-40a8988a399c"}</msg>
+<msg timestamp="20210824 17:30:16.136" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/90cfa01e-69c1-4e1c-a5a3-40a8988a399c/text HTTP/1.1" 200 69</msg>
+<msg timestamp="20210824 17:30:16.136" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.136" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:15.574" endtime="20210824 17:30:16.136"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>now changing cust ID from 101 to 109</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:16.136" level="TRACE">Arguments: [ 'now changing cust ID from 101 to 109' ]</msg>
+<msg timestamp="20210824 17:30:16.136" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:16.136" endtime="20210824 17:30:16.136"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>id=change_customer_id</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:16.136" level="TRACE">Arguments: [ 'id=change_customer_id' ]</msg>
+<msg timestamp="20210824 17:30:16.136" level="INFO">Clicking element 'id=change_customer_id'.</msg>
+<msg timestamp="20210824 17:30:16.136" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "change_customer_id"}</msg>
+<msg timestamp="20210824 17:30:16.199" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:16.199" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.199" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/637b5c50-a803-4c6b-8224-1f078fe956fb/click {"id": "637b5c50-a803-4c6b-8224-1f078fe956fb"}</msg>
+<msg timestamp="20210824 17:30:16.261" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/637b5c50-a803-4c6b-8224-1f078fe956fb/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:16.261" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.261" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:16.136" endtime="20210824 17:30:16.261"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=alertTitle</arg>
+<arg>${EDIT_CUST_ALERT_TEXT}</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20210824 17:30:16.261" level="TRACE">Arguments: [ 'id=alertTitle' | 'New Customer ID' ]</msg>
+<msg timestamp="20210824 17:30:16.261" level="INFO">Verifying element 'id=alertTitle' contains text 'New Customer ID'.</msg>
+<msg timestamp="20210824 17:30:16.261" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "alertTitle"}</msg>
+<msg timestamp="20210824 17:30:16.917" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:16.917" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.917" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/b5c8ef8b-e042-4e44-ad01-ace1c661cb45/text {"id": "b5c8ef8b-e042-4e44-ad01-ace1c661cb45"}</msg>
+<msg timestamp="20210824 17:30:16.949" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/b5c8ef8b-e042-4e44-ad01-ace1c661cb45/text HTTP/1.1" 200 78</msg>
+<msg timestamp="20210824 17:30:16.949" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.949" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:16.261" endtime="20210824 17:30:16.949"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>class=android.widget.EditText</arg>
+<arg>${NEW_CUST_ID}</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:16.949" level="TRACE">Arguments: [ 'class=android.widget.EditText' | '101' ]</msg>
+<msg timestamp="20210824 17:30:16.949" level="INFO">Typing text '101' into text field 'class=android.widget.EditText'</msg>
+<msg timestamp="20210824 17:30:16.949" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "class name", "value": "android.widget.EditText"}</msg>
+<msg timestamp="20210824 17:30:16.980" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:16.980" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:16.980" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/cfe06365-15bf-41d0-ac72-1f750aabcc13/value {"text": "101", "value": ["1", "0", "1"], "id": "cfe06365-15bf-41d0-ac72-1f750aabcc13"}</msg>
+<msg timestamp="20210824 17:30:17.511" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/cfe06365-15bf-41d0-ac72-1f750aabcc13/value HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:17.511" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:17.511" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:16.949" endtime="20210824 17:30:17.511"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>Click on save</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<msg timestamp="20210824 17:30:17.511" level="TRACE">Arguments: [ 'Click on save' ]</msg>
+<msg timestamp="20210824 17:30:17.511" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:17.511" endtime="20210824 17:30:17.511"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>xpath=//*[contains(@text,'SAVE')]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20210824 17:30:17.511" level="TRACE">Arguments: [ "xpath=//*[contains(@text,'SAVE')]" ]</msg>
+<msg timestamp="20210824 17:30:17.527" level="INFO">Clicking element 'xpath=//*[contains(@text,'SAVE')]'.</msg>
+<msg timestamp="20210824 17:30:17.527" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "xpath", "value": "//*[contains(@text,'SAVE')]"}</msg>
+<msg timestamp="20210824 17:30:18.089" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:18.089" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:18.089" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/9d6338d4-5789-4c4e-9fb3-f8bb31ff1abe/click {"id": "9d6338d4-5789-4c4e-9fb3-f8bb31ff1abe"}</msg>
+<msg timestamp="20210824 17:30:18.167" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/9d6338d4-5789-4c4e-9fb3-f8bb31ff1abe/click HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:18.167" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:18.167" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:17.511" endtime="20210824 17:30:18.167"/>
+</kw>
+<kw name="Element Should Contain Text" library="AppiumLibrary">
+<arg>id=customer_id_label</arg>
+<arg>${NEW_CUST_ID}</arg>
+<doc>Verifies element identified by ``locator`` contains text ``expected``.</doc>
+<msg timestamp="20210824 17:30:18.167" level="TRACE">Arguments: [ 'id=customer_id_label' | '101' ]</msg>
+<msg timestamp="20210824 17:30:18.167" level="INFO">Verifying element 'id=customer_id_label' contains text '101'.</msg>
+<msg timestamp="20210824 17:30:18.167" level="DEBUG">POST http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements {"using": "id", "value": "customer_id_label"}</msg>
+<msg timestamp="20210824 17:30:18.746" level="DEBUG">http://127.0.0.1:4723 "POST /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/elements HTTP/1.1" 200 139</msg>
+<msg timestamp="20210824 17:30:18.746" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:18.746" level="DEBUG">GET http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/ebc0addb-03bd-4102-80a5-fbed64ef5ca2/text {"id": "ebc0addb-03bd-4102-80a5-fbed64ef5ca2"}</msg>
+<msg timestamp="20210824 17:30:18.761" level="DEBUG">http://127.0.0.1:4723 "GET /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3/element/ebc0addb-03bd-4102-80a5-fbed64ef5ca2/text HTTP/1.1" 200 69</msg>
+<msg timestamp="20210824 17:30:18.761" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:18.761" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:18.167" endtime="20210824 17:30:18.761"/>
+</kw>
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<msg timestamp="20210824 17:30:18.761" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20210824 17:30:18.761" level="DEBUG">Closing application with session id 6a5ca1fb-1800-4d37-a680-6ef5571d05e3</msg>
+<msg timestamp="20210824 17:30:18.761" level="DEBUG">DELETE http://127.0.0.1:4723/wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3 {}</msg>
+<msg timestamp="20210824 17:30:19.136" level="DEBUG">http://127.0.0.1:4723 "DELETE /wd/hub/session/6a5ca1fb-1800-4d37-a680-6ef5571d05e3 HTTP/1.1" 200 14</msg>
+<msg timestamp="20210824 17:30:19.136" level="DEBUG">Finished Request</msg>
+<msg timestamp="20210824 17:30:19.136" level="TRACE">Return: None</msg>
+<status status="PASS" starttime="20210824 17:30:18.761" endtime="20210824 17:30:19.136"/>
+</kw>
+<status status="PASS" starttime="20210824 17:29:54.775" endtime="20210824 17:30:19.136"/>
+</test>
+<status status="PASS" starttime="20210824 17:29:33.776" endtime="20210824 17:30:19.136"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Sample">Sample</stat>
+<stat pass="2" fail="0" skip="0" id="s1" name="Sample">Sample</stat>
 </suite>
 </statistics>
 <errors>
