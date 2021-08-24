@@ -2,7 +2,7 @@
 Library         AppiumLibrary   timeout=10
 
 *** Test Cases ***
-Sign Up for PIASample App and validate
+Sign Up for PIASample App and validate cust ID 101 on settings screen
     Open Application    http://localhost:4723/wd/hub    platformName=Android    deviceName=abc     app=${PATH}/demoapp/pia-sdk-android-release-sample-2.4.0.apk     appPackage=eu.nets.pia.sample    appActivity=eu.nets.pia.sample.ui.activity.main.MainActivity    automationName=uiautomator2
     comment    Application launched
     Input Text    id=customer_id_et    ${CUST_ID}
