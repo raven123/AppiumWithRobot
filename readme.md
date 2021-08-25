@@ -18,5 +18,5 @@
 
 ## Execution ##
 1. Create *.robot file to start writing test cases with robot keywords and execute test case using:
- e.g. robot -d Output --loglevel TRACE .\testSelenium\sample.robot
+ e.g. robot -d Output --loglevel TRACE .\testSelenium\SignUpAndVerifyCustID.robot
 
